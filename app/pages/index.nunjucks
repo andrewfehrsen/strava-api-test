@@ -1,0 +1,12 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+		<section class="tke-l-container">
+			<input id="athlete" type="number" />
+			<a id="connectBtn" class="tke-c-btn tke-c-btn--connect" href="javascript:void(0)">Connect to Strava</a>
+		</section>
+		<section id="data">
+			
+		</section>
+{% endblock %}
